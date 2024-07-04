@@ -7,5 +7,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
   }
+
+  .sidebar h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: start;
+    margin-bottom: 1em;
+  }
+  
+  .sidebar-label-container {
+    font-size: 1em;
+    padding: 0px;
+  }
+  
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+  }
+  
   
